@@ -1,0 +1,47 @@
+@media (max-width: 964px) {
+.presentation {
+    width: 56%;
+    font-size: 20px;
+}
+}
+@media (max-width: 736px) {
+    .presentation {
+        margin-top: 130px;
+        width: 66%;    
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        background-position: center;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .styled {
+        font-size: 0.8rem;
+    }
+    .identity > h1, h2 {
+        font-size: 1.5rem;
+    }
+    .identity {
+        height: 80px;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .presentation{display: none;}
+    
+    .labeur {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 300;
+        width: 350px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
